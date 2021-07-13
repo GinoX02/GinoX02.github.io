@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <title>comidas e bebidas</title>
+   <style type="text/css">
+   body{
+    background:#E24E00 ;
+   }
+
+.item{
+  background-color:#333;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+  
+  transition: all 300ms;
+  
+  position: relative;
+}
+
+
+.item::after {
+  content: "";
+  background-color: rgba(179, 229, 252, .1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.item:hover:after{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item-text{
+  padding: 1em;
+  color: white;
+}
+
+
+.item-img{
+  max-width: 100%;
+  display: flex;
+}
+
+.footer{
+    background:#E24E00;
+    color: #fff;
+    padding: 10px;
+
+}
+.footer img{
+    max-width: 1200px;
+    display: inline-flex;
+
+}
+
+.contenedor-footer{
+
+display: flex;
+}
+
+.columna1{
+    max-width: 40
+}
+h1{
+  color: white;
+}
+   </style>
+   
+
+</head>
+<body>
+
+  <center><p><h1><i>A continuacion te precentamos una coleccion de fotos referentes a nuestro restaurante y a los platillos que podras ver en el mismo.</i></h1></p>
+  
+
+                    <div class="item">
+                        <br>
+                    <br>
+                    <img src="C:\Users\ginov\Desktop\Pagina web\img\a.jpg"  width="230" height="200" alt=""><h1 class="item-text">pizza napolitana</h1> 
+                    </div>
+                    <br>
+                        <br>
+                      <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\ccdz.jpg" width="260" height="200"alt=""><h1 class="item-text">mix de guarniciones</h1>
+                        </div>
+                        <br>
+                        <br>
+                    
+
+                        <div class="item">
+                            <br>
+                    <br>
+                          <img src="C:\Users\ginov\Desktop\Pagina web\img\download.jpg" width="230" height="200"> 
+                        <h1 class="item-text">Burrito de carne</h1>
+                    </div>
+                    <br>
+                    <br>
+
+                      <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img4.jpg" width="250" height="200"  alt="">
+                        <h1 class="item-text">mexican mix</h1>
+                    </div>
+                    <br>
+                        <br>
+                      <div class="item">
+                        <br>
+                        <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\SSSFSSDC.jpg" width="230" height="200"  alt="">
+                        <h1 class="item-text">Guisado de champiñones </h1>
+                    </div>
+                    <br>
+                    <br>
+
+                      <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\VZZVV.jpg" width="300" height="170"  alt="">
+                        <h1 class="item-text">Papa horneada con relleno de Jamón</h1>
+                    </div>
+                    <br>
+                    <br>
+
+                      <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\wdw.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Pechuga de pollo marinada en salsas</h1>
+                    </div>
+                    <br>
+                    <br>
+
+                       <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\asdsadsadsd.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Wafles</h1>
+                    </div>
+                    <br>
+                    <br>
+
+
+   <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\fgwsfada.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Pastel con almendras</h1>
+                    </div>
+                    <br>
+                    <br>
+
+
+   <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\fwsada.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Tarta de kiwi</h1>
+                    </div>
+                    <br>
+                    <br>
+
+   <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\XCVV.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Tacos de res</h1>
+                    </div>
+                    <br>
+                    <br>
+   <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\zx.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Secreto del mar (plato especial)</h1>
+</div>
+              		<br>
+      	</div>
+
+
+<div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img1.jpeg " width="300" height="200" alt="">
+                        <h1 class="item-text">Japón Mix</h1>
+</div>
+                  <br>
+
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img3.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Mix de camarones y mariscos</h1>
+</div>
+                  <br>
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img5.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Res y vegetales</h1>
+</div>
+                  <br>
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img6.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Arenque con viveres varios</h1>
+</div>
+                  <br>
+                          </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img7.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Vaso de ron y limón</h1>
+</div>
+                  <br>
+
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img8.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Cocteles con alcohol</h1>
+</div>
+                  <br>
+
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img9.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Margaritas coronadas</h1>
+</div>
+                  <br>
+
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img10.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Bebidas energeticas</h1>
+</div>
+                  <br>
+
+        </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\img11.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">gaseosas variadas</h1>
+</div>
+                  <br>
+
+                          </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\jondo galeria.jfif" width="300" height="200" alt="">
+                        <h1 class="item-text">Instalaciones del local secundario</h1>
+</div>
+                  <br>
+                          </div><div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\Juan.jfif" width="300" height="200" alt="">
+                        <h1 class="item-text">Chef Maestro sirviendo un plato </h1>
+                      </div>
+                  <br>
+
+                          <div class="item">
+                        <br>
+                    <br>
+                        <img src="C:\Users\ginov\Desktop\Pagina web\img\sadsadsad.jpg" width="300" height="200" alt="">
+                        <h1 class="item-text">Postres helados con mermeladas y syrups</h1>
+</div>
+                  <br>
+
+      
+
+      </div>
+    </div>
+<footer class="footer">
+       <div class="contenedor-footer">
+
+
+<div class="columna1">
+   <h1>¿Quienes somos?</h1>
+   <br>
+   <p>Somos un conjunto de compañeros unidos por la pasion
+    <br>
+    de la cocina y con muchas ganas de crecer como restaurante.
+<br>
+<br>
+Nos unimos con el motivo de desarrollar un restaurante
+<br>
+para que sea mundialmente reconocido y de esa manera crecer
+ economicamente y ser nuestros propios jefes.</p>
+</div>
+
+
+  <div class="columna2"></div>
+  <h1>Siguenos en nuestras redes sociales:</h1>
+  <p></p>
+   <div class="fila-1">
+<a href="https://www.facebook.com">
+<img src="C:\Users\ginov\Desktop\Pagina web\img\icono1.png" width="50" height="50">  
+
+</a>
+</div>
+
+<div class="fila-1">
+    </div>
+<br> <br>
+<br> <br>
+
+<a href="https://twitter.com/">
+  <img src="C:\Users\ginov\Desktop\Pagina web\img\icono2.png" widt="50" height="50">
+</a><div class="fila-1">
+    <br>
+       
+     </div>
+     <br>
+     <br>
+
+<a href="https://instagram.com/elsabor369?utm_medium=copy_link">
+<img src="C:\Users\ginov\Desktop\Pagina web\img\icono3.png" width="55" height="55">
+</a><div class="fila-1">
+    <br>
+      </div>
+      
+<div class="columna3"></div>
+
+<div class="fila-2">
+<h1>.Contactanos</h1>
+<p>Santo Domingo Este-AV Venezuela-#89</p>
+<p>+1(829)-012-3456</p>
+<p>
+Restaurante_e-sabor@gmail.com</p>
+<p> 
+  </div>
+
+  <div class="columna3"></div>
+  <div class="fila-2">
+  <p><h1>Todos los derechos reservados</h1></p> 
+<p>---Gurpo#1 6to de aplicaciones:</p>
+<p>---Arwvin Gino #44</p>---Jobniel Abreu #1</p>
+<p>---Anabelle Familia #9</p>
+
+       </div>
+   </footer>
+
+  
+        <p>.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
